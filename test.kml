@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>test</name>
+    <Style id="line-1A237E-1200-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>1.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-1A237E-1200-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>1.8</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-1A237E-1200">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1A237E-1200-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1A237E-1200-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Line 1</name>
+      <description>test</description>
+      <styleUrl>#line-1A237E-1200</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          77.5511169,12.732782,0
+          77.5840759,12.7729644,0
+          77.5909424,12.7943924,0
+          77.6266479,12.7984099,0
+          77.6307678,12.829209,0
+          77.6115417,12.8466155,0
+          77.6390076,12.862682,0
+          77.6637268,12.8519711,0
+          77.678833,12.8225139,0
+          77.7035522,12.8037666,0
+          77.7241516,12.8104622,0
+          77.7200317,12.837243,0
+          77.7282715,12.8600043,0
+          77.7365112,12.8841024,0
+          77.7598572,12.87607,0
+          77.7928162,12.8519711,0
+          77.8230286,12.8519711,0
+          77.8656006,12.8586655,0
+          77.8875732,12.8733924,0
+          77.8669739,12.9068595,0
+          77.8477478,12.9322915,0
+          77.8161621,12.9577209,0
+          77.8079224,12.9911767,0
+          77.7832031,12.9885004,0
+          77.8038025,12.9791331,0
+          77.7818298,12.9911767,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
